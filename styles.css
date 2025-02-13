@@ -7,12 +7,20 @@
   background-color: #f0f0f0;
   padding: 20px;
   border-right: 2px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
 }
 
 #navbar header {
   font-size: 1.5em;
   margin-bottom: 20px;
   font-weight: bold;
+  text-transform: uppercase;
+}
+
+#navbar ul {
+  list-style: none;
+  padding: 0;
 }
 
 .nav-link {
@@ -21,15 +29,18 @@
   text-decoration: none;
   color: #333;
   border-bottom: 1px solid #ddd;
+  transition: all 0.3s ease;
 }
 
 .nav-link:hover {
   background-color: #ddd;
+  color: #2c3e50;
 }
 
 #main-doc {
   margin-left: 290px;
   padding: 20px;
+  transition: all 0.3s ease;
 }
 
 .main-section {
@@ -49,6 +60,7 @@ code {
   margin: 10px 0;
   border-radius: 5px;
   font-family: monospace;
+  font-size: 1.2em;
 }
 
 @media (max-width: 768px) {
@@ -57,9 +69,11 @@ code {
       width: 100%;
       height: auto;
       border-right: none;
+      padding: 10px;
   }
 
   #main-doc {
       margin-left: 0;
+      padding: 10px;
   }
 }
