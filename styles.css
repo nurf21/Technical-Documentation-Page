@@ -9,6 +9,7 @@
   border-right: 2px solid #ccc;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
+  z-index: 1;
 }
 
 #navbar header {
@@ -16,11 +17,13 @@
   margin-bottom: 20px;
   font-weight: bold;
   text-transform: uppercase;
+  color: #333;
 }
 
 #navbar ul {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 .nav-link {
@@ -61,6 +64,7 @@ code {
   border-radius: 5px;
   font-family: monospace;
   font-size: 1.2em;
+  overflow-x: auto;
 }
 
 @media (max-width: 768px) {
