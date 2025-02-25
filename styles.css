@@ -12,6 +12,7 @@
   z-index: 1;
   display: flex;
   flex-direction: column;
+  overflow-y: auto;
 }
 
 #navbar header {
@@ -27,6 +28,7 @@
   padding: 0;
   margin: 0;
   flex-grow: 1;
+  overflow-y: auto;
 }
 
 .nav-link {
@@ -77,12 +79,13 @@ code {
       height: auto;
       border-right: none;
       padding: 10px;
-      flex-direction: row;
+      flex-direction: column;
       overflow-x: auto;
   }
 
   #navbar ul {
     flex-direction: row;
+    flex-wrap: wrap;
   }
 
   #main-doc {
