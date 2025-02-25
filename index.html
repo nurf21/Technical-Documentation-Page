@@ -18,6 +18,9 @@
       <li><a class="nav-link" href="#Conditional_Statements">Conditional Statements</a></li>
       <li><a class="nav-link" href="#Arrays">Arrays</a></li>
       <li><a class="nav-link" href="#Objects">Objects</a></li>
+      <li><a class="nav-link" href="#Classes">Classes</a></li>
+      <li><a class="nav-link" href="#Inheritance">Inheritance</a></li>
+      <li><a class="nav-link" href="#Modules">Modules</a></li>
     </ul>
   </nav>
   <main id="main-doc">
@@ -93,6 +96,25 @@
         <li>Properties: access values by key</li>
         <li>Methods: constructor, hasOwnProperty, isPrototypeOf</li>
       </ul>
+    </section>
+    <section class="main-section" id="Classes">
+      <header>Classes</header>
+      <p>Classes define blueprints for objects.</p>
+      <p>Use class keyword to declare classes.</p>
+      <code>class Person { constructor(name, age) { this.name = name; this.age = age; } }</code>
+    </section>
+    <section class="main-section" id="Inheritance">
+      <header>Inheritance</header>
+      <p>Inheritance allows classes to inherit properties and methods.</p>
+      <p>Use extends keyword to inherit classes.</p>
+      <code>class Employee extends Person { constructor(name, age, salary) { super(name, age); this.salary = salary; } }</code>
+    </section>
+    <section class="main-section" id="Modules">
+      <header>Modules</header>
+      <p>Modules allow code to be organized into reusable files.</p>
+      <p>Use import and export keywords to work with modules.</p>
+      <code>import { add } from './math.js';</code>
+      <code>export function add(x, y) { return x + y; }</code>
     </section>
   </main>
 </body>
