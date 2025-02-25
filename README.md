@@ -10,14 +10,13 @@ This repository contains a basic technical documentation page built using HTML a
 ------------
 
 * A responsive navigation bar with links to different sections of the documentation
-* A main content area with sections on JavaScript basics
-* Code examples and syntax highlighting for better readability
-* A mobile-friendly design using CSS media queries
+* A main content area with sections on JavaScript basics, including code examples and syntax highlighting for better readability
+* A mobile-friendly design using CSS media queries and a flexible layout
 
 **Getting Started**
 ------------
 
-To view the documentation page, simply open the index.html file in a web browser.
+To view the documentation page, simply open the `index.html` file in a web browser.
 
 **License**
 ---------
