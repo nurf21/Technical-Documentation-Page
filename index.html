@@ -47,6 +47,9 @@
         <li>String</li>
         <li>Number</li>
         <li>Boolean</li>
+        <li>Null</li>
+        <li>Undefined</li>
+        <li>Symbol</li>
       </ul>
     </section>
     <section class="main-section" id="Functions">
@@ -54,18 +57,22 @@
       <p>Functions are blocks of reusable code.</p>
       <p>Use function keyword or arrow syntax.</p>
       <code>function greet() { return 'Hello'; }</code>
+      <code>const greet = () => 'Hello';</code>
     </section>
     <section class="main-section" id="Loops">
       <header>Loops</header>
       <p>Loops execute code repeatedly.</p>
       <p>Common loops: for, while, do...while.</p>
       <code>for (let i = 0; i < 5; i++) { }</code>
+      <code>while (i < 5) { }</code>
+      <code>do { } while (i < 5);</code>
     </section>
     <section class="main-section" id="Conditional_Statements">
       <header>Conditional Statements</header>
       <p>Conditional statements execute code based on conditions.</p>
       <p>Use if, else if, else statements.</p>
       <code>if (x > 5) { console.log('x is greater than 5'); }</code>
+      <code>if (x > 5) { console.log('x is greater than 5'); } else { console.log('x is less than or equal to 5'); }</code>
     </section>
     <section class="main-section" id="Arrays">
       <header>Arrays</header>
@@ -74,7 +81,7 @@
       <code>let arr = [1, 2, 3];</code>
       <ul>
         <li>Indexing: access elements by index</li>
-        <li>Methods: push, pop, shift, unshift</li>
+        <li>Methods: push, pop, shift, unshift, splice, slice, join, concat</li>
       </ul>
     </section>
     <section class="main-section" id="Objects">
@@ -84,7 +91,7 @@
       <code>let obj = { name: 'John', age: 30 };</code>
       <ul>
         <li>Properties: access values by key</li>
-        <li>Methods: functions that belong to objects</li>
+        <li>Methods: constructor, hasOwnProperty, isPrototypeOf</li>
       </ul>
     </section>
   </main>
