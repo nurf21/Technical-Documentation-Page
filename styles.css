@@ -25,6 +25,7 @@
   padding: 10px;
   background-color: #ddd;
   border-bottom: 1px solid #ccc;
+  border-radius: 5px 5px 0 0;
 }
 
 #navbar ul {
@@ -33,6 +34,11 @@
   margin: 0;
   flex-grow: 1;
   overflow-y: auto;
+  scrollbar-width: none;
+}
+
+#navbar ul::-webkit-scrollbar {
+  display: none;
 }
 
 .nav-link {
@@ -42,6 +48,7 @@
   color: #333;
   border-bottom: 1px solid #ddd;
   transition: all 0.3s ease;
+  border-radius: 5px;
 }
 
 .nav-link:hover {
@@ -68,6 +75,7 @@
   color: #2c3e50;
   background-color: #f8f9fa;
   border-bottom: 1px solid #ddd;
+  border-radius: 5px 5px 0 0;
 }
 
 code {
@@ -85,13 +93,13 @@ code {
 
 @media (max-width: 768px) {
   #navbar {
-      position: relative;
-      width: 100%;
-      height: auto;
-      border-right: none;
-      padding: 10px;
-      flex-direction: column;
-      overflow-x: auto;
+    position: relative;
+    width: 100%;
+    height: auto;
+    border-right: none;
+    padding: 10px;
+    flex-direction: column;
+    overflow-x: auto;
   }
 
   #navbar ul {
@@ -101,7 +109,7 @@ code {
   }
 
   #main-doc {
-      margin-left: 0;
-      padding: 10px;
+    margin-left: 0;
+    padding: 10px;
   }
 }
